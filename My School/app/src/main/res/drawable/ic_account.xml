@@ -1,0 +1,18 @@
+<vector android:height="24dp" android:viewportHeight="491.52"
+    android:viewportWidth="491.52" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#2bacaa" android:pathData="M245.8,245.8m-245.8,0a245.8,245.8 0,1 1,491.5 0a245.8,245.8 0,1 1,-491.5 0"/>
+    <path android:fillAlpha="0.1" android:fillColor="#FF000000"
+        android:pathData="M322,105H169.5c-9.2,0 -16.6,7.4 -16.6,16.6v248.4c0,4.4 1.7,8.4 4.6,11.4L266.7,490.6c119,-10 213.7,-104.8 223.9,-223.7L335,111.2C331.9,107.4 327.2,105 322,105z" android:strokeAlpha="0.1"/>
+    <path android:fillColor="#64798A" android:pathData="M322,105H169.5c-9.2,0 -16.6,7.4 -16.6,16.6v248.4c0,9.2 7.4,16.6 16.6,16.6h152.5c9.2,0 16.6,-7.4 16.6,-16.6V121.6C338.6,112.4 331.2,105 322,105z"/>
+    <path android:fillColor="#EBF0F3" android:pathData="M173.4,125.4h144.7v220.5h-144.7z"/>
+    <path android:fillColor="#E1E6E9" android:pathData="M173.4,333.9h144.7v12h-144.7z"/>
+    <path android:fillColor="#27A2DB" android:pathData="M186.6,149.6h118.2v167.1h-118.2z"/>
+    <path android:fillColor="#2D93BA" android:pathData="M196.3,257.9h99v18h-99z"/>
+    <path android:fillColor="#2D93BA" android:pathData="M196.3,288.7h99v18h-99z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M196.3,254.1h99v18h-99z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M196.3,284.8h99v18h-99z"/>
+    <path android:fillColor="#2D93BA" android:pathData="M214.9,163.9h61.6v67.2h-61.6z"/>
+    <path android:fillColor="#27A2DB" android:pathData="M246.7,181.8m-12,0a12,12 0,1 1,24.1 0a12,12 0,1 1,-24.1 0"/>
+    <path android:fillColor="#27A2DB" android:pathData="M245.8,199.6c-14.2,0 -25.8,11.5 -25.8,25.8h51.6C271.6,211.1 260,199.6 245.8,199.6z"/>
+    <path android:fillColor="#3A556A" android:pathData="M245.8,379.8c-7.9,0 -14.3,-6.4 -14.3,-14.3c0,-7.9 6.4,-14.3 14.3,-14.3s14.3,6.4 14.3,14.3C260.1,373.4 253.7,379.8 245.8,379.8zM245.8,356.3c-5.1,0 -9.2,4.1 -9.2,9.2c0,5.1 4.1,9.2 9.2,9.2c5.1,0 9.2,-4.1 9.2,-9.2C255,360.4 250.8,356.3 245.8,356.3z"/>
+</vector>

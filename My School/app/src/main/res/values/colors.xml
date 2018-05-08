@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textColor">#808080</color>
+    <color name="border">#87000000</color>
+    <color name="colorPrimary">#10bbb3</color>
+    <color name="primary">#10bbb3</color>
+    <!--<color name="primary">#ff0066</color>-->
+    <color name="light_primary">#7f10bbb3</color>
+    <!--<color name="light_primary">#ff4d94</color>-->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="sky_blue">#1b77d3</color>
+    <color name="activated">#cd1b77d3</color>
+    <color name="colorAccent">#10bbb3</color>
+    <color name="pending">#cdf96736</color>
+    <color name="success">#cd81ca21</color>
+    <color name="failed">#cdff0005</color>
+    <color name="highlight">#cdff0005</color>
+    <color name="white">#f6ffffff</color>
+    <color name="black">#000</color>
+    <color name="tr_black">#84000000</color>
+    <color name="light_black">#84000000</color>
+    <color name="greaybg">#abc6c4c4</color>
+    <color name="textcolor">#333</color>
+    <color name="hintcolor">#666</color>
+    <color name="light_green">#8cc541</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="divider_color">#11000000</color>
+    <color name="msg_color">#FFFFFFFF</color>
+    <color name="dialog_bg">#ffe74c3c</color>
+    <color name="btn_press_color">#66000000</color>
+    <color name="btn_unpress_color">#22000000</color>
+    <!-- New For Custom ALert  -->
+    <color name="dialogInfoBackgroundColor">#2866BF</color>
+    <color name="dialogSuccessBackgroundColor">#00b576</color>
+    <color name="dialogProgressBackgroundColor">#2866BF</color>
+    <color name="dialogErrorBackgroundColor">#C1272D</color>
+    <color name="dialogWarningBackgroundColor">#f2c304</color>
+    <color name="dialogNoticeBackgroundColor">#737373</color>
+</resources>

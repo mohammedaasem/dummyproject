@@ -1,0 +1,111 @@
+<com.flavienlaurent.discrollview.lib.DiscrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:discrollve="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.flavienlaurent.discrollview.lib.DiscrollViewContent
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black"
+                android:padding="25dp"
+                android:textSize="72sp"
+                android:gravity="center"
+                android:fontFamily="serif"
+                discrollve:discrollve_alpha="true"
+                discrollve:discrollve_translation="fromLeft|fromBottom"
+                discrollve:discrollve_scaleX="true"
+                discrollve:discrollve_scaleY="true"
+                discrollve:discrollve_fromBgColor="#88EE66"
+                discrollve:discrollve_toBgColor="#000000"
+                discrollve:discrollve_threshold="0.3"
+                android:text="Lets tour practical Lab?" />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                discrollve:discrollve_alpha="true"
+                discrollve:discrollve_translation="fromLeft|fromBottom"
+                android:src="@drawable/ic_laptop" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="110dp"
+                android:layout_gravity="right"
+                discrollve:discrollve_alpha="true"
+                discrollve:discrollve_scaleX="true"
+                discrollve:discrollve_scaleY="true"
+                discrollve:discrollve_fromBgColor="#88EE66"
+                discrollve:discrollve_toBgColor="#000000"
+                discrollve:discrollve_threshold="0.3"
+                android:src="@drawable/ic_notebook"
+                discrollve:discrollve_translation="fromRight" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                discrollve:discrollve_scaleX="true"
+                discrollve:discrollve_scaleY="true"
+                discrollve:discrollve_fromBgColor="#88EE66"
+                discrollve:discrollve_toBgColor="#000000"
+                discrollve:discrollve_threshold="0.3"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="When the cheese comes out everybody's happy pecorino red leicester"
+                android:textSize="18sp"
+                discrollve:discrollve_alpha="true"
+                discrollve:discrollve_translation="fromBottom" />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_calendar"
+                discrollve:discrollve_scaleX="true"
+                discrollve:discrollve_scaleY="true"  />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_notebook"
+                discrollve:discrollve_translation="fromRight" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="When the cheese comes out everybody's happy pecorino red leicester"
+                android:textSize="18sp"
+                discrollve:discrollve_alpha="true"
+                discrollve:discrollve_translation="fromBottom" />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_notebook"
+                discrollve:discrollve_scaleX="true"
+                discrollve:discrollve_scaleY="true"  />
+        </com.flavienlaurent.discrollview.lib.DiscrollViewContent>
+    </com.flavienlaurent.discrollview.lib.DiscrollView>
+

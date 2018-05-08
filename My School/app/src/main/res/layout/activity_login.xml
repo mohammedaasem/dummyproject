@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context="com.aasem.inspire_info_soft.myschool.Login">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:transitionName="iv_app_logo_shared"
+        android:id="@+id/iv_app_logo"
+        android:src="@drawable/ic_schoollll" />
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:text="@string/app_name"
+        android:layout_marginTop="10sp"
+        android:textColor="@color/primary"
+        android:transitionName="tv_app_name_shared"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.aasem.inspire_info_soft.myschool.CustomView.EditText.EditText
+        android:id="@+id/et_name"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:singleLine="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext_custom"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="10dp"
+        android:hint="Roll Number" />
+
+    <com.aasem.inspire_info_soft.myschool.CustomView.EditText.EditText
+        android:id="@+id/et_password"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_custom"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="10dp"
+        android:hint="Password" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="5sp"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/rg_user"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:minWidth="300dp"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="Student"
+                android:drawableLeft="@drawable/ic_user"
+                android:textColor="@drawable/rbtn_text_selector"
+                android:id="@+id/rb_retailer"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:drawablePadding="20dp"
+                android:background="@drawable/rbtn_selector"
+                android:layout_height="40dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="Staff"
+                android:drawablePadding="20dp"
+                android:drawableLeft="@drawable/ic_teacher"
+                android:textColor="@drawable/rbtn_text_selector"
+                android:background="@drawable/rbtn_selector"
+                android:button="@null"
+                android:layout_weight="1"
+                android:id="@+id/rb_distributor"
+                android:layout_height="40dp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_one"
+        android:text="LOGIN"
+        android:textColor="@color/white" />
+
+
+
+    <TextView
+        android:id="@+id/tv_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Register Here ?" />
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+
+</LinearLayout>

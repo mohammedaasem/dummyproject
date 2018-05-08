@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">My School</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="err_name">Please re-enter the correct name</string>
+    <string name="err_name_father">Please re-enter the correct father name</string>
+    <string name="err_name_mother">Please re-enter the correct mother name</string>
+    <string name="err_name_password">Please re-enter the password</string>
+
+    <string name="error_name">Please enter correct name</string>
+    <string name="err_tel">enter correct number</string>
+    <string name="err_email">enter correct email id</string>
+    <string name="err_password">Please enter strong password</string>
+    <string name="err_password_confirmation">Mismatch password</string>
+    <string name="err_birth">enter valid date of birth</string>
+    <string name="inspire_insfo_soft">Inspire Insfo Soft</string>
+    <string name="collge_address">Address</string>
+    <string name="contact_numbers">Contact Numbers</string>
+    <string-array name="blood_group">
+        <item>Choose Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+</resources>

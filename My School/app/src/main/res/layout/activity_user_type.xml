@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.aasem.inspire_info_soft.myschool.UserType">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Choose User Type"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/primary"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rb_user_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:minWidth="300dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb_student"
+                android:layout_width="300dp"
+                android:checked="true"
+                android:layout_height="40dp"
+                android:background="@drawable/rbtn_selector"
+                android:button="@null"
+                android:drawableLeft="@drawable/ic_user"
+                android:drawablePadding="20dp"
+                android:text="Student"
+                android:textColor="@drawable/rbtn_text_selector" />
+
+            <RadioButton
+                android:id="@+id/rb_staff"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/rbtn_selector"
+                android:button="@null"
+                android:drawableLeft="@drawable/ic_teacher"
+                android:drawablePadding="20dp"
+                android:text="Staff"
+                android:textColor="@drawable/rbtn_text_selector" />
+        </RadioGroup>
+
+        <Button
+            android:background="@drawable/button_one"
+            android:id="@+id/btn_next"
+            android:textColor="@color/white"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Next" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
